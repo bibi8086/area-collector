@@ -820,6 +820,7 @@ public class AreaCollector {
                             } else if (id.equals("500100")) {
                                 name = "重庆市";
                             }
+                            shortName = name;
                         }
                         // 是否裁剪自治州名称
                         if(SHORT_NAME){
@@ -906,6 +907,7 @@ public class AreaCollector {
                         pid = id.substring(0, 6);
                         if(name.endsWith("办事处")){
                             name = name.substring(0, name.length() - 3);
+                            shortName = name;
                         }
                         break;
                     default:
