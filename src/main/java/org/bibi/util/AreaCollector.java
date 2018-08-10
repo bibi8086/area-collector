@@ -905,7 +905,7 @@ public class AreaCollector {
                     case 4:
                         // 110101001 id: 110101001 pid: 110101
                         pid = id.substring(0, 6);
-                        if(name.endsWith("办事处")){
+                        if(name.endsWith("街道办事处")){
                             name = name.substring(0, name.length() - 3);
                             shortName = name;
                         }
